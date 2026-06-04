@@ -1,0 +1,312 @@
+{
+  "protocol": "commit -> public drand seed -> sha256 sort key",
+  "script_sha256": "078f74ea805f1d1029062725a9fe4229f597e91cc2fe4ae539a32c51e762552f",
+  "seed_info": {
+    "source": "drand-quicknet",
+    "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+    "round": 29266612,
+    "round_time_utc": "2026-06-04T20:00:00+00:00",
+    "signature": "852189fba94187c6d6b4811dc8716280a58a44157e4404f6bcd40847901c24f7bd0ae02d7e94a129dfce46662ca48787",
+    "seed": "b4540184b1ba891b6226145ed2feb9ea78339a43d0d68df2588b308dae1529a8",
+    "relays_agreed": [
+      "https://api.drand.sh",
+      "https://api2.drand.sh",
+      "https://api3.drand.sh"
+    ],
+    "relays_failed": []
+  },
+  "delimiter": ":",
+  "entrant_count": 48,
+  "entrants_committed_list": [
+    "_vinnie",
+    "aholl173",
+    "air&stinnybo",
+    "ak",
+    "benson",
+    "bigsnook",
+    "bohm",
+    "bos",
+    "burress",
+    "chargers",
+    "chars1",
+    "coop",
+    "corbin",
+    "det",
+    "domxb_06",
+    "dylan",
+    "fat",
+    "fears_",
+    "hairston",
+    "ja",
+    "jack",
+    "jamie",
+    "maliknabers.1",
+    "mason.rudolph",
+    "mclean",
+    "meth",
+    "minnesuffering",
+    "mmf",
+    "noahrawji",
+    "oli",
+    "ozone",
+    "plemay",
+    "prodraiders",
+    "reinhart13",
+    "risen",
+    "shabd",
+    "skiseason",
+    "snivy",
+    "snowy",
+    "soyel",
+    "tatismvpszn",
+    "thebigd0g",
+    "ur_mysunshine",
+    "valpo",
+    "walkemdowntohellandback",
+    "willi3",
+    "winn",
+    "woo"
+  ],
+  "result": [
+    {
+      "pick": 1,
+      "entrant": "fears_",
+      "sort_key": "0724ce7bd20b62b1d00efa40efaf32f6338a39f625606d53928f493e2761a095"
+    },
+    {
+      "pick": 2,
+      "entrant": "aholl173",
+      "sort_key": "14a1f58e72fc18a94e25f1c5ca8e8b50d47976993aa994e50ff29938eec4180b"
+    },
+    {
+      "pick": 3,
+      "entrant": "mclean",
+      "sort_key": "15f78f2afbf4e36750afbf10d8ec872934f1c14447be0fe1394488eb2d58cd73"
+    },
+    {
+      "pick": 4,
+      "entrant": "mason.rudolph",
+      "sort_key": "204fa00d3f0ec537cd3e74b589e0693b68c7a40d1403286759a7a56c342cb95e"
+    },
+    {
+      "pick": 5,
+      "entrant": "skiseason",
+      "sort_key": "20ff04f81d30fd7c1e1cf1dc90cbfe1e2df41c25f80a17e56234b363778ecfcc"
+    },
+    {
+      "pick": 6,
+      "entrant": "ak",
+      "sort_key": "2222fd1dbf64183af5e75d22ec70f707df66b7bd0b2ee9ff5a27b696798103de"
+    },
+    {
+      "pick": 7,
+      "entrant": "dylan",
+      "sort_key": "22f91c64e2d6a11c9431764f022d6a0636ea2cf1b3a70febd95b4cb237c3313f"
+    },
+    {
+      "pick": 8,
+      "entrant": "walkemdowntohellandback",
+      "sort_key": "2c166f4606610c2ca8e9089e5d6b3e0d2a3b662bdbddc40c662caab4317954f1"
+    },
+    {
+      "pick": 9,
+      "entrant": "winn",
+      "sort_key": "3214784ab0d65c3fc78c789668aaada2afe9e00318d1ac8180122035401b52a4"
+    },
+    {
+      "pick": 10,
+      "entrant": "benson",
+      "sort_key": "329ae89495d83e9dac0070d92d1d25ed3907154a182a73ff3aa4c13e17e4dc29"
+    },
+    {
+      "pick": 11,
+      "entrant": "willi3",
+      "sort_key": "355fe13922e667ebe432094803c77fb390aa5d42f8d34f6a28e69f76e1fb74ab"
+    },
+    {
+      "pick": 12,
+      "entrant": "oli",
+      "sort_key": "499b644ed49936b91e34a20e9ef85293048952248ebd43068bcbc14748ac92b5"
+    },
+    {
+      "pick": 13,
+      "entrant": "fat",
+      "sort_key": "4fb5fc62a936928fefe32cf7f59fba0e5564f249007111623fe57b8762c194ab"
+    },
+    {
+      "pick": 14,
+      "entrant": "corbin",
+      "sort_key": "5011bce31d242ebb661934ea5c385a5187d21add311cd02dfa3a6c71e0cf2ccc"
+    },
+    {
+      "pick": 15,
+      "entrant": "domxb_06",
+      "sort_key": "526b03e2eea28151512bc36a9e6e4ad10fede2ed1118d719d5f5b67e0a42f7c5"
+    },
+    {
+      "pick": 16,
+      "entrant": "jack",
+      "sort_key": "5d72f2298e06af1a5fd311f500a5e6afdfdb8908944c8e44d644f46aa5c57583"
+    },
+    {
+      "pick": 17,
+      "entrant": "maliknabers.1",
+      "sort_key": "67029c6455d7505b32fb1d00895a2f3761ace8c9566b543ec452c5dbf7558d60"
+    },
+    {
+      "pick": 18,
+      "entrant": "thebigd0g",
+      "sort_key": "6d7af05f2927d6889f44a3eac8b2fc36d1099e9c0a11aaf023afeec8ae47a8e7"
+    },
+    {
+      "pick": 19,
+      "entrant": "chars1",
+      "sort_key": "6edaeb5a12f7111ea13700855f6c24abf8f8940167cce6308214d6d5e8ed502b"
+    },
+    {
+      "pick": 20,
+      "entrant": "coop",
+      "sort_key": "6f05abcc31f0c84ac52a0a739b3863d809d337006af67792967ac0835a98bb59"
+    },
+    {
+      "pick": 21,
+      "entrant": "reinhart13",
+      "sort_key": "74d5c58c2243f8025fabc3cc752677b080bd8511cc7d58dbf8d8ff2d58a4c4be"
+    },
+    {
+      "pick": 22,
+      "entrant": "woo",
+      "sort_key": "77996deaf023d74b428b52d306b70e8b3448fa2272f1499e66f90aed39a2c0f9"
+    },
+    {
+      "pick": 23,
+      "entrant": "noahrawji",
+      "sort_key": "92f239e76de26673b9eb41587f965d34ee66b34557c3265bbe1ca7ae7eb3a08e"
+    },
+    {
+      "pick": 24,
+      "entrant": "plemay",
+      "sort_key": "93d3bcb0a55aada4e18777169ff8b067d3e305877419ddc2b7638c929eff50ca"
+    },
+    {
+      "pick": 25,
+      "entrant": "snowy",
+      "sort_key": "95222c91be1aca7e300ce1fca1c71b13345336376bc8cfd5fce9720ab0979e60"
+    },
+    {
+      "pick": 26,
+      "entrant": "shabd",
+      "sort_key": "9750db2015cf833bb44b57ec8c056ec1afbae5a9e0f333cf147a6c93af186322"
+    },
+    {
+      "pick": 27,
+      "entrant": "snivy",
+      "sort_key": "99ca9b7956f7973e9dd1eeba9b1430363c3fbfd620ef3eadef7ae1906784167f"
+    },
+    {
+      "pick": 28,
+      "entrant": "valpo",
+      "sort_key": "9c946083b058c7d6f77fa93e797635dda6eee6e67a44532161d39516cf0c7381"
+    },
+    {
+      "pick": 29,
+      "entrant": "bohm",
+      "sort_key": "9cd2bdaccbb0b127dd62ae87af5dfc8010591df8660a809bbf904ec857d4cae7"
+    },
+    {
+      "pick": 30,
+      "entrant": "ja",
+      "sort_key": "9fde828a2230b4709e88c01cd6fca2705658e8b695ace8a230c37df694937ffb"
+    },
+    {
+      "pick": 31,
+      "entrant": "risen",
+      "sort_key": "a086ee60f765e576b0c09b5a21d631e50e0edab2c8330cddb3f1a41806839544"
+    },
+    {
+      "pick": 32,
+      "entrant": "chargers",
+      "sort_key": "ab10597e1d33020c8b2963c4b9f9122142f9c140367e7d6ec5dadc56fd2ae48b"
+    },
+    {
+      "pick": 33,
+      "entrant": "ur_mysunshine",
+      "sort_key": "ae4ffd6b1a2a3136b2b289983072e20c6f0751bf58101c65f33fce11f1734fa9"
+    },
+    {
+      "pick": 34,
+      "entrant": "_vinnie",
+      "sort_key": "ae6c674ac22a1cdcb7ca64df1106da2aa20660cd40ae7b86625a47254322760c"
+    },
+    {
+      "pick": 35,
+      "entrant": "mmf",
+      "sort_key": "b1e76432abcce92148b487f21fe82383340a22439fbfe2f1bf2a28390d309480"
+    },
+    {
+      "pick": 36,
+      "entrant": "meth",
+      "sort_key": "b2435656d9e62d9bd72bedf4e3de9c55ece15c6ef9910d67c3244284a9acdd7f"
+    },
+    {
+      "pick": 37,
+      "entrant": "soyel",
+      "sort_key": "b7ce65df268de862418380023584c987ee8a16c149b2a0e1811e8068e3214c2a"
+    },
+    {
+      "pick": 38,
+      "entrant": "prodraiders",
+      "sort_key": "c07f09c08228ac3796c80bbcf0ca4f7062f6a3ea8690618ac09764fbcdd228f4"
+    },
+    {
+      "pick": 39,
+      "entrant": "air&stinnybo",
+      "sort_key": "cb9a6a525c7f76d836cab96e5321799314bb9578295991a410949fb2c6671cb9"
+    },
+    {
+      "pick": 40,
+      "entrant": "bos",
+      "sort_key": "cd4ecf265fe9f51885b56b5ab3a86496ea658be8ad02d8b65ad86d5eb9684493"
+    },
+    {
+      "pick": 41,
+      "entrant": "jamie",
+      "sort_key": "d081399dd292f6902b6fff7da33138ed7cbb6c91da564c1fe6c2e2507cd31a36"
+    },
+    {
+      "pick": 42,
+      "entrant": "burress",
+      "sort_key": "d47fb83d73a7382d6b6e44de9b93f91f2e24cee7c33a3a4f64b6aca72c4b3d8d"
+    },
+    {
+      "pick": 43,
+      "entrant": "bigsnook",
+      "sort_key": "db17d4316a1d7242a89c21a9f8c61acf831d9d5926f936e7881658bf9f78f704"
+    },
+    {
+      "pick": 44,
+      "entrant": "hairston",
+      "sort_key": "ddb8db330ca724965292e38bffb74f0f4ceb44975dd16d9ab50d32d4b5edb9d1"
+    },
+    {
+      "pick": 45,
+      "entrant": "minnesuffering",
+      "sort_key": "e3bec43d86fcf714555765a4fc5e63f2f0b33df129409eac11b89341af570926"
+    },
+    {
+      "pick": 46,
+      "entrant": "det",
+      "sort_key": "ea867de47b4fb860df395f44c487014ab3fc149fa4a1000aee5daa227ac675e7"
+    },
+    {
+      "pick": 47,
+      "entrant": "tatismvpszn",
+      "sort_key": "f7bc583e0ab457a561b759cdeac98526ea8c40b889471b8c2fea985537265878"
+    },
+    {
+      "pick": 48,
+      "entrant": "ozone",
+      "sort_key": "fe0a7817e15a0eff06c3ee9aaf13f35e70af12909735cdf14e8de09eaa3eec60"
+    }
+  ]
+}
