@@ -1,6 +1,6 @@
 # RKL "World Cup" Manager Draft — Draw Commitment
 
-**Posted:** << fill in the actual time you publish this — it MUST be before the 3:30 PM ET review deadline in section 4 >>
+**Timestamp:** Published before the beacon round in section 3 below. The publication time is proven by this repository's commit history and the league-chat post of this file's SHA-256 (this line itself is not the proof).
 
 This document fixes the entire draw procedure *before* the random seed is
 generated. Because it is published before the seed exists, the commissioner
@@ -72,7 +72,7 @@ This exact list is the file `managers.txt` used in section 5.
 
 ## 2. The algorithm (frozen)
 
-- Tool: `provably_fair_draw.py` (attached / linked: << repo or gist URL >>)
+- Tool: `provably_fair_draw.py` (attached / linked: https://github.com/potatocaustic/rkl-worldcup-draw)
 - **Script SHA-256:** `078f74ea805f1d1029062725a9fe4229f597e91cc2fe4ae539a32c51e762552f`
   - Confirm it yourself: `python3 provably_fair_draw.py self-hash`
   - If this hash differs from the file you receive, do not trust the draw.
@@ -119,9 +119,6 @@ python3 provably_fair_draw.py draw --round 29266612 --entrants managers.txt --ou
 
 and publishes `draw_result.txt` and `draw_result.json` — which contain the
 seed, every manager's hash key, and the final pick order.
-<< Optional: this runs automatically via a GitHub Action triggered after
-4:00 PM ET, so the result is committed without the commissioner touching it.
-Link: ___ >>
 
 ---
 
