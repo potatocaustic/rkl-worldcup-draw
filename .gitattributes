@@ -1,0 +1,6 @@
+# Disable git's end-of-line conversion for the frozen files so their SHA-256 is
+# identical on Windows, macOS, and Linux. The draw verification depends on this:
+# a cloner on a different OS must compute the same hash the commitment records.
+provably_fair_draw.py -text
+managers.txt -text
+COMMITMENT.md -text

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+# local scratch (not part of the repo)
+managers_raw.txt
+dryrun.*

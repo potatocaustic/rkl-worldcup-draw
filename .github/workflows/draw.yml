@@ -1,0 +1,33 @@
+name: World Cup Draw
+
+# For a same-day, one-shot draw, trigger this MANUALLY at 4:00 PM ET using the
+# "Run workflow" button on the Actions tab (workflow_dispatch). The cron below
+# is only a backstop: GitHub's scheduled runs can lag 5-20+ minutes, which is
+# harmless here because round 29266612 is fixed (a late run produces the
+# identical result) -- but do not rely on cron alone for timing.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 20 4 6 *"   # 20:10 UTC on June 4 (backstop only)
+
+permissions:
+  contents: write           # required so the job can commit the result back
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # provably_fair_draw.py uses only the Python standard library -- no deps.
+      - name: Produce the draw from the committed round
+        run: python3 provably_fair_draw.py draw --round 29266612 --entrants managers.txt --out draw_result
+      - name: Publish the result
+        run: |
+          git config user.name "draw-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add draw_result.json draw_result.txt
+          git diff --staged --quiet || git commit -m "Draw result — drand quicknet round 29266612"
+          git push
