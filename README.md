@@ -24,7 +24,7 @@ manipulated.
   python3 provably_fair_draw.py draw --round 29266612 --entrants managers.txt --out draw_result
   ```
 
-## Verify it yourself (no trust in the commissioner required)
+## Verify it yourself 
 
 Full details in `COMMITMENT.md` §6. In short:
 
